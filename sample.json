@@ -1,0 +1,37 @@
+[
+  {
+    "id": 123456,
+    "name": "Sherry",
+    "gender": "Female",
+    "faculty": "Science",
+    "year": "1A"
+  },
+  {
+    "id": 231452,
+    "name": "Mike",
+    "gender": "Male",
+    "department": "English",
+    "year": "3A"
+  },
+  {
+    "id": 894638,
+    "name": "Peter",
+    "gender": "Male",
+    "department": "Engineering",
+    "year": "2B"
+  },
+  {
+    "id": 201201,
+    "name": "Sasa",
+    "gender": "Female",
+    "faculty": "Arts",
+    "year": "2A"
+  },
+  {
+    "id": 345217,
+    "name": "Jill",
+    "gender": "Male",
+    "faculty": "Math",
+    "year": "4A"
+  }
+]

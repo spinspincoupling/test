@@ -1,0 +1,66 @@
+<!doctype html>  
+<html lang="en">  
+    <head>
+        <meta charset="utf-8">
+        <title> Student List </title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.dev.js"> </script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>
+
+        <style>
+            .container {
+                width: 300px;
+                clear: both;
+            }
+            .container input{
+                width: 100%;
+                clear: both;
+            }
+
+                #displaynew {
+                    width: 100%;
+                    padding: 50px 0;
+                    text-align: center;
+                    background-color: lightblue;
+                    margin-top: 20px;
+                    display: none
+                }
+
+                #input {
+                    margin-top: 20px;
+                    display: none
+                }
+                </style>
+        
+
+    </head>
+    <body>
+        <h1>Student List</h1>
+    
+            <div id = "displaynew"></div>
+
+            <input id = "studentID" type = "text" placeholder="studentID" />
+            <button id = "search" >Search</button>
+            <button id = "new" >New Student</button>
+
+            <div id = "infor"></div>  
+
+            <div id = "input">
+                <form class = "container">
+                    <label> StudentID </label>
+                    <input id = inputID type = "text"> <br/>
+                    <label> Name </label>
+                    <input id = inputname type = "text"> <br/>
+                    <label> Gender </label>
+                    <input id = inputgender type = "text"> <br/>
+                    <label> Faculty </label>
+                    <input id = inputfaculty type = "text"> <br/>
+                    <label> Year </label>
+                    <input id = inputyear type = "text"> <br/>
+                </form>
+                <button id = "submitinput">Submit</button>
+            </div>
+
+        <script src = "/update.js"> </script> 
+                  
+    </body>
+</html>  
